@@ -1,0 +1,12 @@
+﻿@model IEnumerable<DAL.Entites.ShoppingCart>
+@inject DAL.IShopRepository shopRepository;
+@{
+    ViewData["Title"] = "Index";
+
+}
+
+<h1>you have @Model.Count() items in your cart</h1>
+@foreach (var item in Model)
+{
+        <p>@shopRepository.GetProductById(item.ProductId).Name</p>
+}

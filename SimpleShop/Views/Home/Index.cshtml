@@ -1,0 +1,33 @@
+﻿@model IEnumerable<DAL.Entites.Product>
+@{
+    ViewData["Title"] = "Home Page";
+    var PhotoPath = "~/images/" + "no-image.png";
+}
+
+<div class="row">
+    @foreach (var product in Model)
+    {
+    <div class="col-sm-6">
+        <div class="card h-100 w-50">
+            <div class="card-header">
+                <h1>@product.Name</h1>
+            </div>
+
+            <div class="card-body text-center">
+                @if (product.PhotoPath == null)
+                {
+                    <img class="card-img-top" src="@PhotoPath" asp-append-version="true" />
+                }
+                else
+                {
+                    <img class="card-img-top" src="@product.PhotoPath" asp-append-version="true" />
+                }
+                <h4>Price : @product.Price$</h4>
+                <p class="card-text">@product.Description</p>
+                <a asp-controller="Cart" asp-action="AddToCart" asp-route-id="@product.Id" class="btn btn-primary">Add to Cart</a>
+            </div>
+        </div>
+    </div>
+            }
+    </div>
+

@@ -1,0 +1,15 @@
+C:\Users\levan\Desktop\prog\SweeftDigital\Dal\bin\Debug\net5.0\DAL.deps.json
+C:\Users\levan\Desktop\prog\SweeftDigital\Dal\bin\Debug\net5.0\DAL.runtimeconfig.json
+C:\Users\levan\Desktop\prog\SweeftDigital\Dal\bin\Debug\net5.0\DAL.runtimeconfig.dev.json
+C:\Users\levan\Desktop\prog\SweeftDigital\Dal\bin\Debug\net5.0\DAL.dll
+C:\Users\levan\Desktop\prog\SweeftDigital\Dal\bin\Debug\net5.0\ref\DAL.dll
+C:\Users\levan\Desktop\prog\SweeftDigital\Dal\bin\Debug\net5.0\DAL.pdb
+C:\Users\levan\Desktop\prog\SweeftDigital\Dal\obj\Debug\net5.0\DAL.csprojAssemblyReference.cache
+C:\Users\levan\Desktop\prog\SweeftDigital\Dal\obj\Debug\net5.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\levan\Desktop\prog\SweeftDigital\Dal\obj\Debug\net5.0\DAL.AssemblyInfoInputs.cache
+C:\Users\levan\Desktop\prog\SweeftDigital\Dal\obj\Debug\net5.0\DAL.AssemblyInfo.cs
+C:\Users\levan\Desktop\prog\SweeftDigital\Dal\obj\Debug\net5.0\DAL.csproj.CoreCompileInputs.cache
+C:\Users\levan\Desktop\prog\SweeftDigital\Dal\obj\Debug\net5.0\DAL.dll
+C:\Users\levan\Desktop\prog\SweeftDigital\Dal\obj\Debug\net5.0\ref\DAL.dll
+C:\Users\levan\Desktop\prog\SweeftDigital\Dal\obj\Debug\net5.0\DAL.pdb
+C:\Users\levan\Desktop\prog\SweeftDigital\Dal\obj\Debug\net5.0\DAL.genruntimeconfig.cache
