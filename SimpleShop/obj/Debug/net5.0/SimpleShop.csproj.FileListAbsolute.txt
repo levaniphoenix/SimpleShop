@@ -306,3 +306,5 @@ C:\Users\levan\Desktop\prog\SimpleShop\SimpleShop\obj\Debug\net5.0\SimpleShop.dl
 C:\Users\levan\Desktop\prog\SimpleShop\SimpleShop\obj\Debug\net5.0\ref\SimpleShop.dll
 C:\Users\levan\Desktop\prog\SimpleShop\SimpleShop\obj\Debug\net5.0\SimpleShop.pdb
 C:\Users\levan\Desktop\prog\SimpleShop\SimpleShop\obj\Debug\net5.0\SimpleShop.genruntimeconfig.cache
+C:\Users\levan\Desktop\prog\SimpleShop\SimpleShop\obj\Debug\net5.0\Razor\Views\Account\Login.cshtml.g.cs
+C:\Users\levan\Desktop\prog\SimpleShop\SimpleShop\obj\Debug\net5.0\Razor\Views\Account\Register.cshtml.g.cs
