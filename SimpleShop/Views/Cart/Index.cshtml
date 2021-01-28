@@ -2,11 +2,38 @@
 @inject DAL.IShopRepository shopRepository;
 @{
     ViewData["Title"] = "Index";
-
+    var PhotoPath = "~/images/" + "no-image.png";
+    List<DAL.Entites.Product> products = new List<DAL.Entites.Product> { };
+    foreach(var product in Model)
+    {
+        products.Add(shopRepository.GetProductById(product.ProductId));
+    }
 }
 
-<h1>you have @Model.Count() items in your cart</h1>
-@foreach (var item in Model)
-{
-        <p>@shopRepository.GetProductById(item.ProductId).Name</p>
-}
+<h1>you have @products.Count() items in your cart</h1>
+<div class="row">
+    @foreach (var product in products)
+    {
+        <div class="col-sm-6">
+            <div class="card h-100 w-50">
+                <div class="card-header">
+                    <h1>@product.Name</h1>
+                </div>
+
+                <div class="card-body text-center">
+                    @if (product.PhotoPath == null)
+                    {
+                        <img class="card-img-top" src="@PhotoPath" asp-append-version="true" />
+                    }
+                    else
+                    {
+                        <img class="card-img-top" src="@product.PhotoPath" asp-append-version="true" />
+                    }
+                    <h4>Price : @product.Price$</h4>
+                    <p class="card-text">@product.Description</p>
+                    <a asp-controller="Cart" asp-action="RemoveFromCart" asp-route-id="@product.Id" class="btn btn-primary">Remove from cart</a>
+                </div>
+            </div>
+        </div>
+    }
+</div>

@@ -52,6 +52,15 @@ namespace DAL
             context.ShoppingCarts.Add(cart);
             context.SaveChanges();
         }
-        
+        public void RemoveFromCart(int id)
+        {
+            ShoppingCart shoppingCart = context.ShoppingCarts.Find(id);
+            if(shoppingCart!=null)
+            {
+                context.ShoppingCarts.Remove(shoppingCart);
+                context.SaveChanges();
+            }
+        }
+
     }
 }

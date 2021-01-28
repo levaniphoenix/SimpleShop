@@ -14,5 +14,6 @@ namespace DAL
         IEnumerable<ShoppingCart> GetShoppingCart(string userName);
         ShoppingCart GetShoppingCart(int productId, string userName);
         void AddToCart(int productId,string userName);
+        void RemoveFromCart(int id);
     }
 }
